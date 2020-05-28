@@ -5,6 +5,12 @@
 npm install
 ```
 
+### Run proxy Server
+You need to run this locally - as openweather api have cors blocked by default. So we have to send the request via proxy backend server.
+```
+npm run proxy
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
@@ -16,6 +22,7 @@ npm run build
 ```
 
 ### Run your unit tests
+*No tests have been writen yet unfortunantely
 ```
 npm run test:unit
 ```
@@ -25,5 +32,3 @@ npm run test:unit
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
